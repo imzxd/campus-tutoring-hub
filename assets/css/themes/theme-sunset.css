@@ -1,0 +1,9 @@
+body[data-theme="sunset"] {
+  --bg: #fff6ee;
+  --surface: #ffffff;
+  --text: #35231a;
+  --muted: #6f5647;
+  --primary: #c55a11;
+  --primary-strong: #9d470d;
+  --accent: #ffc857;
+}

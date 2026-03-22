@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Service details page with rating and request actions.">
+  <meta name="keywords" content="Service details, request session, rating">
+  <link rel="icon" type="image/svg+xml" href="assets/media/images/item05.svg">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/themes/theme-classic.css">
+  <link rel="stylesheet" href="assets/css/themes/theme-ocean.css">
+  <link rel="stylesheet" href="assets/css/themes/theme-sunset.css">
+  <title>Service Details | Campus Tutoring Hub</title>
+</head>
+<body data-theme="classic">
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">Campus Tutoring Hub</a>
+      <button class="mobile-toggle" id="mobileToggle">Menu</button>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="catalog.html">Services</a>
+        <a class="active" href="product.html?id=1">Service Detail</a>
+        <a href="login.html">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="productDetails" class="card fade-up"></section>
+
+    <section class="card fade-up">
+      <h2>Rate Service</h2>
+      <label for="rating">Select rating</label>
+      <select id="rating">
+        <option>5 - Excellent</option>
+        <option>4 - Good</option>
+        <option>3 - Average</option>
+        <option>2 - Fair</option>
+        <option>1 - Poor</option>
+      </select>
+      <p>
+        <button class="btn" type="button">Submit Rating</button>
+        <button class="btn secondary" type="button">Request Session</button>
+      </p>
+      
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-wrap">Track requests in <a href="history.html">History</a>.</div></footer>
+  <script src="assets/js/catalog-data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
